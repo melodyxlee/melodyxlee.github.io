@@ -145,7 +145,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.25em;
+		font-size: 6em;
 		line-height: 1.35em;
 	}
 
@@ -2034,6 +2034,8 @@ input, select, textarea {
 	}
 
 	header.major {
+		text-align: center;
+		font-size: 1.5em;
 		margin: 0 0 1em 0;
 	}
 
@@ -2043,7 +2045,7 @@ input, select, textarea {
 			display: inline-block;
 			height: 1px;
 			margin-top: 1.5em;
-			width: 6em;
+			width: 10em;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -2542,7 +2544,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1.25em 0 0;
+			padding: 0 1.5em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -3002,16 +3004,6 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-			#header .actions:after {
-				background: #ffffff;
-				content: '';
-				height: 100vh;
-				left: 50%;
-				position: absolute;
-				top: 100%;
-				width: 1px;
-			}
-
 		#header .inner {
 			-moz-transition: -moz-transform 1.5s ease, opacity 2s ease;
 			-webkit-transition: -webkit-transform 1.5s ease, opacity 2s ease;
@@ -3028,6 +3020,7 @@ input, select, textarea {
 			opacity: 1;
 			position: relative;
 			z-index: 1;
+			padding-top: 7em;
 		}
 
 			#header .inner .actions {
