@@ -62,6 +62,10 @@ areas :
 		"showAsSelected": true
 	},
 	{
+		"id": "DO",
+		"showAsSelected": true
+	},
+	{
 		"id": "HN",
 		"showAsSelected": true
 	},
