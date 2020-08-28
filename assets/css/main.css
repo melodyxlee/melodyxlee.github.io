@@ -3192,6 +3192,13 @@ input, select, textarea {
 					padding: 0;
 				}
 
+/* Map */
+
+	#mapdiv {
+		width: 38em; 
+		height: 24em; 
+	}
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -3207,6 +3214,8 @@ input, select, textarea {
 			#header {
 				padding: 6em 0 6em 0 ;
 			}
+
+
 
 	}
 
@@ -3262,7 +3271,7 @@ input, select, textarea {
 			#footer {
 				padding: 4em 0 4em 0 ;
 				background-attachment: scroll;
-			}
+			}		/* Map */
 
 	}
 
@@ -3312,6 +3321,13 @@ input, select, textarea {
 				text-align: center;
 			}
 
+		/* Map */
+
+			#mapdiv {
+				margin: auto;
+				margin-bottom: 1.5em;
+			}
+
 	}
 
 /* Small */
@@ -3325,11 +3341,11 @@ input, select, textarea {
 			}
 
 			h1 {
-				font-size: 1.75em;
+				font-size: 2.6em;
 			}
 
 			h2 {
-				font-size: 1.5em;
+				font-size: 1.2em;
 			}
 
 			h3 {
@@ -3361,6 +3377,12 @@ input, select, textarea {
 			.icon.major {
 				margin: 0 0 1em 0;
 			}
+			.fa-lg {
+				font-size: 1em;
+			}
+			.fa-3x {
+				font-size: 2.4em;
+			}
 
 		/* Button */
 
@@ -3386,13 +3408,20 @@ input, select, textarea {
 			}
 
 				#header .actions {
-					margin: 2em 0 0 0;
+					margin: 14em 0 0 0;
 				}
 
 		/* Footer */
 
 			#footer {
 				padding: 3em 1.5em 3em 1.5em ;
+			}
+
+		/* Map */
+
+			#mapdiv {
+				width: 420px; 
+				height: 250px; 
 			}
 
 	}
@@ -3407,7 +3436,7 @@ input, select, textarea {
 			input[type="reset"],
 			input[type="button"],
 			.button {
-				padding: 0;
+				padding: 0 8px 0 8px;
 			}
 
 		/* Main */
@@ -3419,7 +3448,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4em 2em 4em 2em ;
+				padding: 8em 2em 12em 2em ;
 			}
 
 				#header br {
@@ -3447,6 +3476,13 @@ input, select, textarea {
 							margin-top: 0;
 						}
 
+		/* Map */
+
+			#mapdiv {
+				width: 320px; 
+				height: 200px; 
+			}
+
 	}
 
 /* XXSmall */
@@ -3457,6 +3493,13 @@ input, select, textarea {
 
 			html, body {
 				min-width: 320px;
+			}
+			h1 {
+				font-size: 2em;
+			}
+
+			h2 {
+				font-size: 1em;
 			}
 
 		/* Main */
@@ -3475,6 +3518,13 @@ input, select, textarea {
 
 			#footer {
 				padding: 2em 1em 2em 1em ;
+			}
+
+		/* Map */
+
+			#mapdiv {
+				width: 250px; 
+				height: 180px; 
 			}
 
 	}
