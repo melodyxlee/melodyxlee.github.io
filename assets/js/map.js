@@ -120,6 +120,10 @@ areas :
 	{
 		"id": "VN",
 		"showAsSelected": true
+	},
+	{
+		"id": "IS",
+		"showAsSelected": true
 	}
 ]
 },
